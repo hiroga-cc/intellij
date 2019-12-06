@@ -6,6 +6,7 @@
       <mapping pattern="assigning-user-ids-to-endpoints" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="migrate" type="PLAIN_TEXT" />
+      <mapping pattern="export-local-env" type="Shell Script" />
     </extensionMap>
   </component>
 </application>
