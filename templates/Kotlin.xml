@@ -1,6 +1,5 @@
 <templateSet group="Kotlin">
-  <template name="solve" value="import java.io.BufferedReader&#10;import java.io.InputStreamReader&#10;&#10;// To improving time, not return but pass value by global variables.&#10;internal fun $EXPR$(input: String): String {&#10;    $END$&#10;    return TODO()&#10;}&#10;&#10;// To improving time, create inline functions instead of standalone functions.&#10;&#10;fun main() {&#10;    // Scanner slows down, use InputReader&#10;    val br = BufferedReader(InputStreamReader(System.`in`))&#10;&#10;    val output = $EXPR$(br.readLine())&#10;&#10;    println(output)&#10;}&#10;" description="Kotlin starter template, expecially for programming contests." toReformat="true" toShortenFQNames="true">
-    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="solve" value="internal fun solve(input: String): String {&#10;    TODO()$END$&#10;}&#10;&#10;fun main() {&#10;    var OUTPUT = &quot;&quot;&#10;&#10;    // InputStreamReaderをそのまま使うと実行ごとに読み込みが発生するため、BufferedReaderを用いる。&#10;    val br = System.`in`.bufferedReader()&#10;&#10;    OUTPUT += solve(br.readLine())&#10;    print(OUTPUT)&#10;}&#10;" description="Kotlin starter template, expecially for programming contests." toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
