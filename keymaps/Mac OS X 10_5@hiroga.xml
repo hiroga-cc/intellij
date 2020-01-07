@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
+  <action id="CloseAllUnpinnedEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl 1" />
+  </action>
   <action id="Debug" />
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
@@ -20,6 +23,7 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="ExportToTextFile" />
+  <action id="GotoBookmark1" />
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="MethodHierarchy.OverrideMethodAction" />
@@ -27,6 +31,9 @@
     <keyboard-shortcut first-keystroke="enter" />
   </action>
   <action id="OverrideMethods" />
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
   <action id="PopupMenu-return">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
@@ -44,6 +51,7 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
   </action>
+  <action id="ToggleBookmark1" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchy.BaseOnThisType" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
