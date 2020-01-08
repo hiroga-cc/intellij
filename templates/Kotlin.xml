@@ -1,5 +1,5 @@
 <templateSet group="Kotlin">
-  <template name="solve" value="internal fun solve(input: String): String {&#10;    TODO()$END$&#10;}&#10;&#10;fun main() {&#10;    var OUTPUT = &quot;&quot;&#10;&#10;    // InputStreamReaderをそのまま使うと実行ごとに読み込みが発生するため、BufferedReaderを用いる。&#10;    val br = System.`in`.bufferedReader()&#10;&#10;    OUTPUT += solve(br.readLine())&#10;    print(OUTPUT)&#10;}&#10;" description="Kotlin starter template, expecially for programming contests." toReformat="true" toShortenFQNames="true">
+  <template name="solve" value="internal fun solve(input: String): String {&#10;    TODO()$END$&#10;}&#10;&#10;fun main() {&#10;    var OUTPUT = &quot;&quot;&#10;&#10;    val br = System.`in`.bufferedReader()&#10;&#10;    OUTPUT += solve(br.readLine())&#10;    print(OUTPUT)&#10;}&#10;" description="Kotlin starter template, expecially for programming contests." toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
