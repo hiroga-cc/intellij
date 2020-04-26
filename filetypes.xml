@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="No903.kt" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping pattern="export-env" type="PLAIN_TEXT" />
       <mapping pattern="memo" type="PLAIN_TEXT" />
       <mapping pattern="assigning-user-ids-to-endpoints" type="PLAIN_TEXT" />
