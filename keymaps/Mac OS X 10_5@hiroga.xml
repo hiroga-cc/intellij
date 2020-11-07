@@ -47,7 +47,9 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
   </action>
-  <action id="TypeHierarchy" />
+  <action id="TypeHierarchy">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="TypeHierarchy.BaseOnThisType" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Unsplit">
